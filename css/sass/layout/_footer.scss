@@ -1,0 +1,54 @@
+footer{
+    background-color: $greyColor;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    .fot{
+        width: 100%;
+        ul{
+            list-style: none;
+            display: flex;
+                flex-direction: row;
+                justify-content: center;
+                justify-content: space-around;
+                align-items: center;
+
+            li{
+                padding-top: 80px;
+                font-size: 50px;
+                color: $redcolor;
+
+                .f{
+                    color:#385898;
+                    border-radius: 50px;
+                    padding: 10px;
+
+                }
+                .t{
+                    color:#385898;
+                    
+                    padding: 10px
+
+
+                }
+                .in{
+                    color:#385898;
+
+
+
+                }
+            }
+        }
+    }
+}
+.btn-fo{
+    background-color: black;
+    height: 60px;
+h4{
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    bottom: 0;
+}
+}

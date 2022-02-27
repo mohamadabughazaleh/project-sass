@@ -1,0 +1,100 @@
+.services{
+    .head-with-border{
+        text-align: center;
+        margin: 40px auto;
+        font-size: 15px;
+        border-radius: 20px;
+        width: 200px;
+        background-color: $redcolor;
+        color: #fff;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            border: 1px solid black;
+            right: -210px;
+            top: 50%;
+            width: 200px;
+
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            border: 1px solid black;
+            left: -210px;
+            top: 50%;
+            width: 200px;
+
+        }
+        &:hover{
+            cursor: pointer;
+            background-color: $greyColor;
+
+        }
+        p{
+            font-size: 15px;
+            line-height: 1.7;
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+            color: #5e5e5e;
+            font-family: Tahoma, Arial;
+        }
+        
+    }
+    .service-box {
+        float: $float-left;
+        width: (100%/3);
+       padding:  10px;
+        
+        h3 {
+            color: #666;
+        }
+        i{
+            color:$redcolor ;
+            font-size: 30px;
+
+        }
+        a {
+            color: $redcolor;
+            text-decoration: none;
+            border: 2px solid gray;
+            border-radius: 30px;
+            padding: 5px;
+
+
+        }
+        p{
+            color: #777;
+
+        }
+    }
+}
+.services-our{
+    .player-box {
+        float: $float-left;
+        width: (100%/3);
+       padding:  10px;
+        
+        h3 {
+            color: #666;
+        }
+        img{
+        width: 100%;
+        border: 5px solid gray;
+        border-radius: 30px;
+        }
+        a {
+            color: $redcolor;
+            text-decoration: none;
+            border: 2px solid gray;
+            border-radius: 30px;
+            padding: 5px;
+
+        }
+        p{
+            color: #777;
+
+        }
+    }
+}

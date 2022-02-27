@@ -1,0 +1,13 @@
+*{
+    @include prefixer(box-sizing,border-box)
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.clear{
+    clear: both;
+}

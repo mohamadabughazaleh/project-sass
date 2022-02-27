@@ -1,0 +1,49 @@
+header{
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid $greyColor;
+
+    .logo{
+        width: 30%;
+        float: $float-left;
+        h1{
+            margin-bottom: 0;
+            margin-top: 10px;
+
+        }
+        p{
+        font-weight:bold;
+        opacity: 0.6;
+
+        }
+    }
+    .navbar{
+        width: 70%;
+        right: 10px;
+        position: fixed;
+        z-index: 11111111111111;
+        float: $float-left;
+        @include prefixer(list-style ,none);
+        background-color: $redcolor;
+        border-radius: 15px;
+          li{
+              width: 20%;
+              float: $float-left;
+              font-size: 18px;
+              text-align: center;
+
+              a{
+                  display: block;
+                  padding: 20px 10px;
+                  text-decoration: none;
+                  color: #fff;
+                  &:hover{
+                      color: #DDD;
+                  }
+              }
+
+
+        }
+        
+    }
+}

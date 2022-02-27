@@ -1,0 +1,47 @@
+.slider{
+    text-align: center;
+    blockquote{
+font-size: 15px;
+line-height: 1.7;
+text-align: center;
+font-style: italic;
+font-weight: bold;
+color: #5e5e5e;
+font-family: Tahoma, Arial;
+
+    }
+    img{
+        width: 800px;
+        height: 400px;
+        box-shadow: 5px 5px 5px 0;
+        border: 5px solid white;
+        filter: contrast(0.5);
+        &:hover{
+            filter: none;
+        }
+    }
+
+    .bullets{
+        text-align: center;
+        li{
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #d9d9d9;
+            border-radius: 50%;
+            border: 2px solid $greyColor;
+            transition: .5s;
+         &.active   {
+            border: 2px solid $redcolor;
+            }
+            &:hover {
+                transform: rotate(180deg);
+                transform: scale(1.8,1.8);
+
+                border: 2px solid $redcolor;
+                cursor: pointer;
+
+            }
+        }
+    }
+}
